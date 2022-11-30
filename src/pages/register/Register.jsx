@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './register.scss'
 
 export const Register = () => {
@@ -10,7 +11,7 @@ export const Register = () => {
                  Possimus rem labore praesentium fugiat voluptas? Ducimus, excepturi accusantium saepe, 
                 delectus incidunt commodi obcaecati quae quam perferendis esse debitis, optio aspernatur rem.</p>
                 <span>Já tem uma conta?</span>
-                <button>Login</button>
+                <Link to="/login"><button>Login</button></Link>
             </div>
             <div className='right'>
                 <h1>Cadastro</h1>
