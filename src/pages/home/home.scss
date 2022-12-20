@@ -1,4 +1,12 @@
 .home{
     background-color: white;
     padding: 20px 70px;
+
+    @media (max-width: 480px) {
+        padding: 10px;                    
+    }
+
+    @media (max-width: 960px) {
+        padding: 20px;                   
+    }
 }
